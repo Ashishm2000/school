@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link type="text/css" rel="stylesheet" href="admincss.css" />
+</head>
+<body>
+  <div id=main-div >
+      <div id=div-one>one
+        <div id="div-one-sub-one">1</div>
+        <div id="div-one-sub-two">2</div>
+        <div id="div-one-sub-three">3</div>
+        <div id="div-one-sub-four">4</div>
+        <div id="div-one-sub-five">5</div>
+      </div>
+      <div id=div-two>Time Table
+        <div id=div-two-sub-one>Upload</div>
+        <div id=div-two-sub-two>Check</div>
+        <div id=div-two-sub-three>Change</div>
+        <div id=div-two-sub-four>Delete</div>
+        <div id=div-two-sub-five></div>
+      </div>
+      <div id=div-three>three</div>
+      <div id=div-four>four</div>
+  </div>
+  <div id="div-upload">
+    <form action="standphp.php" method="POST" enctype="multipart/form-data">
+    <input type="file" value="" name="choose1" id="uploadtime">
+    <input type="submit" value="Upload" name="submit"  id="uploadsubmit">    
+    </form>  
+  </div> 
+  <script src="jquery.min.js"></script>  
+  <script src="adminjs.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+$filename=$_FILES["choose1"]["name"];
+    $tempname =$_FILES["choose1"]["tmp_name"];
+    $type=$_FILES["choose1"]["type"];
+   $size=$_FILES["choose1"]["size"];
+echo $type;
+echo $size;
+    echo "<img src='$filename' height='100' width='100'>";
+}
+***************************************************************************
